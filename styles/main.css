@@ -13,17 +13,17 @@ body {
 }
 
 .wrapper {
-    padding-block: 5rem;
+    padding-top: 3rem;
     padding-inline: 2rem;
     display: flex;
     justify-content: center;
-    column-gap: 5rem;
+    gap: 5rem;
     flex-wrap: wrap;
 }
 
 .social_container_link {
     text-decoration: none;
-     color: inherit;
+    color: inherit;
 }
 
 .social_container {
