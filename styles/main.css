@@ -13,12 +13,19 @@ body {
 }
 
 .wrapper {
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr auto;
+}
+
+.social_wrapper {
     padding-top: 3rem;
     padding-inline: 2rem;
     display: flex;
     justify-content: center;
     gap: 5rem;
     flex-wrap: wrap;
+    flex-grow: 1;
 }
 
 .social_container_link {
@@ -58,6 +65,11 @@ body {
 
 .darkmode_logo {
     display: none;
+}
+
+footer {
+    text-align: center;
+    padding-bottom: 2rem;
 }
 
 @media(prefers-color-scheme: dark) {
