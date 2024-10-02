@@ -72,6 +72,10 @@ footer {
     padding-bottom: 2rem;
 }
 
+footer a {
+    color: #0044cc;
+}
+
 @media(prefers-color-scheme: dark) {
     body {
         color: var(--light);
@@ -89,5 +93,9 @@ footer {
 
     .lightmode_logo {
         display: none;
+    }
+
+    .email_logo {
+        fill: orange;
     }
 }
